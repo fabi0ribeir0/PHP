@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="_css/estilo.css">
+</head>
+<body>
+<div>
+    <form method="get" action="01exercicio.php">
+        Numero: <input class="inp" type="number" name="num"> <br>
+        <fieldset><legend>Operação</legend>
+            <input type="radio" name="oper" id="dobro" value="2" checked>
+            <label class="lb" for="dobro">Dobro</label>
+
+            <input type="radio" name="oper" id="cubo" value="3">
+            <label class="lb" for="cube">Cubo</label>
+
+            <input type="radio" name="oper" id="raiz" value="4">
+            <label class="lb" for="raiz">Raiz</label>
+
+        </fieldset>
+
+
+        <input class="cm" type="submit" value="Calcular">
+    </form>
+</div>   
+</body>
+</html>
