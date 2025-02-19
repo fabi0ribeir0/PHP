@@ -9,7 +9,16 @@
 <body>
 <div>
     <?php
-        
+        function teste ($x){ // Passagem por valor
+            $x += 2;
+            echo "O valor de X é $x <br>";
+        }
+
+        $a = 3;
+
+        teste($a);
+
+        print "O valor de A é $a"; 
     ?>    
     <!-- <p><a href="exercicio01.html">Voltar</a></p> -->
 </div>    

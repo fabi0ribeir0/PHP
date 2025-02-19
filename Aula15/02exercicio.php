@@ -9,7 +9,15 @@
 <body>
 <div>
     <?php
-        
+        include "Funcoes.php"; // estancia as funções dentro do arquivo
+
+        echo "<h1>Testando novas funções!</h1>";
+
+        ola(); //Função veio do arquivo Funcoes.php
+
+        mostraValor(4);
+
+        echo "<h2> Finalizando programa!</h2>"
     ?> 
     
       
