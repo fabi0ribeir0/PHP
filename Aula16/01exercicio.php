@@ -16,7 +16,12 @@
         // %f mostra um numero float ( no caso 4.5) para formatar com 2 casas decimais usase .2 antes do f (%.2f)
         printf("O %s está custando R$ %.2f", $prod, $preco);
     ?>    
-    <!-- <p><a href="exercicio01.html">Voltar</a></p> -->
+    <!-- 
+        %d - Valor decimal (positivo ou negativo)
+        %u - Valor decimal sem sinal (apenas positivos)
+        %f - Valor real
+        %s - String
+    -->
 </div>    
 </body>
 </html>
