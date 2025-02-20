@@ -9,7 +9,12 @@
 <body>
 <div>
     <?php
-        
+        $prod = "leite";
+        $preco = 4.5;
+
+        // %s mostra uma string ( no caso leite )
+        // %f mostra um numero float ( no caso 4.5) para formatar com 2 casas decimais usase .2 antes do f (%.2f)
+        printf("O %s está custando R$ %.2f", $prod, $preco);
     ?>    
     <!-- <p><a href="exercicio01.html">Voltar</a></p> -->
 </div>    
