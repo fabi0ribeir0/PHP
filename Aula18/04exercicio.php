@@ -10,13 +10,7 @@
 <div>
     <pre>
         <?php
-            $c = array("nome"=>"Ana", "idade"=>25, "peso"=>75.9);
-            print_r($c);
-            echo "<p>";
-
-            foreach($c as $campo => $valor){
-                echo "$campo $valor <br>";
-            }
+            
 
         ?>
     </pre>
