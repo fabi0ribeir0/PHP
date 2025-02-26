@@ -12,10 +12,18 @@
         <?php
             $alunos = array("Amanda" , "Beatrix" , "Carlos");
 
-            $alunos[] = "Diego";
+            $alunos[] = "Diego"; // inclui elemnto no final do array
+            array_push($alunos, "Marry");// Inclui elemento no final do array
             echo "<p> O Array tem ". count($alunos). " Elementos <br>";
-
+            
+            array_shift($alunos);// Exclui o primeiro elemento
             print_r($alunos);
+
+            array_unshift($alunos, "Aline");// Incluir elemento no inicio
+            array_pop($alunos); // Desaloca ultimo elemento do array
+            echo "<p>";
+            print_r($alunos);
+        
         ?>
     </pre>    
     <!-- <p><a href="exercicio01.html">Voltar</a></p> -->
