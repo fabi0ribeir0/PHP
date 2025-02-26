@@ -8,9 +8,16 @@
 </head>
 <body>
 <div>
-    <?php
-        
-    ?>    
+    <pre>
+        <?php
+            $alunos = array("Amanda" , "Beatrix" , "Carlos");
+
+            $alunos[] = "Diego";
+            echo "<p> O Array tem ". count($alunos). " Elementos <br>";
+
+            print_r($alunos);
+        ?>
+    </pre>    
     <!-- <p><a href="exercicio01.html">Voltar</a></p> -->
 </div>    
 </body>
