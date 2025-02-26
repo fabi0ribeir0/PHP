@@ -8,9 +8,9 @@
 </head>
 <body>
 <div>
-    <?php
-        
-    ?>
+<?php
+	
+?>
     <p><a class="cm" href="javascript:history.go(-1)">Voltar</a> </p>
     
 </div>    
